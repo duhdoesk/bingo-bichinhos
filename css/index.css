@@ -1,0 +1,140 @@
+/* FONT SPECS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* BODY SPECS */
+
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgb(247, 77, 247) 0%, rgba(131, 58, 180, 1) 100%);
+}
+
+
+/* HEADER CONTENT */
+
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+header>h1 {
+    color: white;
+    margin: 0;
+}
+
+header>h4 {
+    color: pink;
+    margin: 0 0 20px;
+    font-weight: 400;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bingo,
+.celula,
+button {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bingo,
+button {
+    background-color: blueviolet;
+    color: white;
+}
+
+.bingo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 4px;
+}
+
+.celula {
+    background-color: seashell;
+    color: blueviolet;
+    font-weight: 700;
+    margin: 2px;
+    width: 200px;
+    transition-duration: 1s;
+}
+
+#cHeader {
+    font-weight: 700;
+}
+
+.celula>img {
+    width: 100px;
+    transition-duration: 0.3s;
+}
+
+.celula>img:hover {
+    width: 104px;
+    transition-duration: 0.3s;
+}
+
+.celulaTxt {
+    font-weight: 400;
+}
+
+button {
+    border-color: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#cartela {
+    grid-column-start: 1;
+}
+
+#sorteador {
+    grid-column-start: 3;
+    background-color: gray;
+}
+
+#cartela:hover,
+#sorteador:hover {
+    background-color: hotpink;
+    transition-duration: 0.4s;
+}
+
+
+/* FOOTER CONTENT */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer>a {
+    text-decoration: none;
+    color: pink;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 800px) {
+    .celula {
+        width: 150px;
+        margin: 2px;
+        transition-duration: 1s;
+    }
+}
