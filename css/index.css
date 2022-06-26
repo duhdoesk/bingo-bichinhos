@@ -31,6 +31,7 @@ header>h4 {
     color: pink;
     margin: 0 0 20px;
     font-weight: 400;
+    font-size: 12px;
 }
 
 
@@ -71,8 +72,12 @@ button {
     color: blueviolet;
     font-weight: 700;
     margin: 2px;
-    width: 200px;
+    width: 160px;
     transition-duration: 1s;
+}
+
+.celula:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #cHeader {
@@ -80,16 +85,17 @@ button {
 }
 
 .celula>img {
-    width: 100px;
+    width: 70px;
     transition-duration: 0.3s;
 }
 
 .celula>img:hover {
-    width: 104px;
+    width: 90px;
     transition-duration: 0.3s;
 }
 
 .celulaTxt {
+    margin: 8px 0 0 0;
     font-weight: 400;
 }
 
@@ -121,19 +127,20 @@ button {
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 footer>a {
     text-decoration: none;
     color: pink;
+    font-size: 8px;
 }
 
 
 /* MEDIA QUERY */
 @media (max-width: 800px) {
     .celula {
-        width: 150px;
+        width: 130px;
         margin: 2px;
         transition-duration: 1s;
     }
