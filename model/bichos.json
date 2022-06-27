@@ -1,0 +1,218 @@
+[
+    {
+        "nome" : "Formiga",
+        "imagem" : "ant"
+    },
+    {
+        "nome" : "Morcego",
+        "imagem" : "bat"
+    },
+    {
+        "nome" : "Abelha",
+        "imagem" : "bee"
+    },
+    {
+        "nome" : "Besouro",
+        "imagem" : "beetle"
+    },
+    {
+        "nome" : "Passarinho",
+        "imagem" : "bullfinch"
+    },
+    {
+        "nome" : "Borboleta",
+        "imagem" : "butterfly"
+    },
+    {
+        "nome" : "Gato",
+        "imagem" : "cat"
+    },
+    {
+        "nome" : "Camaleão",
+        "imagem" : "chameleon"
+    },
+    {
+        "nome" : "Peixe-palhaço",
+        "imagem" : "clown-fish"
+    },
+    {
+        "nome" : "Vaquinha",
+        "imagem" : "cow"
+    },
+    {
+        "nome" : "Carangueijo",
+        "imagem" : "crab"
+    },
+    {
+        "nome" : "Crocodilo",
+        "imagem" : "crocodile"
+    },
+    {
+        "nome" : "Cervo",
+        "imagem" : "deer"
+    },
+    {
+        "nome" : "Dinossauro",
+        "imagem" : "dinosaur"
+    },
+    {
+        "nome" : "Cachorro",
+        "imagem" : "dog"
+    },
+    {
+        "nome" : "Golfinho",
+        "imagem" : "dolphin"
+    },
+    {
+        "nome" : "Pato",
+        "imagem" : "ducky"
+    },
+    {
+        "nome" : "Gafanhoto",
+        "imagem" : "earwig"
+    },
+    {
+        "nome" : "Elefante",
+        "imagem" : "elephant"
+    },
+    {
+        "nome" : "Vagalume",
+        "imagem" : "firefly"
+    },
+    {
+        "nome" : "Flamingo",
+        "imagem" : "flamingo"
+    },
+    {
+        "nome" : "Raposa",
+        "imagem" : "fox"
+    },
+    {
+        "nome" : "Sapo",
+        "imagem" : "frog"
+    },
+    {
+        "nome" : "Girafa",
+        "imagem" : "giraffe"
+    },
+    {
+        "nome" : "Galinha",
+        "imagem" : "hen"
+    },
+    {
+        "nome" : "Hipopótamo",
+        "imagem" : "hippo"
+    },
+    {
+        "nome" : "Cavalo",
+        "imagem" : "horse"
+    },
+    {
+        "nome" : "Água-viva",
+        "imagem" : "jellyfish"
+    },
+    {
+        "nome" : "Coala",
+        "imagem" : "koala"
+    },
+    {
+        "nome" : "Joaninha",
+        "imagem" : "ladybug"
+    },
+    {
+        "nome" : "Leão",
+        "imagem" : "lion"
+    },
+    {
+        "nome" : "Lagarto",
+        "imagem" : "lizard"
+    },
+    {
+        "nome" : "Lagosta",
+        "imagem" : "lobster"
+    },
+    {
+        "nome" : "Macaco",
+        "imagem" : "monkey"
+    },
+    {
+        "nome" : "Rato",
+        "imagem" : "mouse"
+    },
+    {
+        "nome" : "Polvo",
+        "imagem" : "octopus"
+    },
+    {
+        "nome" : "Coruja",
+        "imagem" : "owl"
+    },
+    {
+        "nome" : "Panda",
+        "imagem" : "panda"
+    },
+    {
+        "nome" : "Pinguim",
+        "imagem" : "penguin"
+    },
+    {
+        "nome" : "Porquinho",
+        "imagem" : "pig"
+    },
+    {
+        "nome" : "Coelho",
+        "imagem" : "bunny"
+    },
+    {
+        "nome" : "Cavalo Marinho",
+        "imagem" : "seahorse"
+    },
+    {
+        "nome" : "Tubarão",
+        "imagem" : "shark"
+    },
+    {
+        "nome" : "Ovelha",
+        "imagem" : "sheep"
+    },
+    {
+        "nome" : "Preguiça",
+        "imagem" : "sloth"
+    },
+    {
+        "nome" : "Caramujo",
+        "imagem" : "snail"
+    },
+    {
+        "nome" : "Cobra",
+        "imagem" : "snake"
+    },
+    {
+        "nome" : "Esquilo",
+        "imagem" : "squirrel"
+    },
+    {
+        "nome" : "Estrela do Mar",
+        "imagem" : "starfish"
+    },
+    {
+        "nome" : "Tigresa",
+        "imagem" : "tiger"
+    },
+    {
+        "nome" : "Tucano",
+        "imagem" : "toucan"
+    },
+    {
+        "nome" : "Tartaruga",
+        "imagem" : "turtle"
+    },
+    {
+        "nome" : "Baleia",
+        "imagem" : "whale"
+    },
+    {
+        "nome" : "Lobo",
+        "imagem" : "wolf"
+    }
+]
