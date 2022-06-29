@@ -214,5 +214,13 @@
     {
         "nome" : "Lobo",
         "imagem" : "wolf"
+    },
+    {
+        "nome" : "Capivara",
+        "imagem" : "capivara"
+    },
+    {
+        "nome" : "Canguru",
+        "imagem" : "kangaroo"
     }
 ]

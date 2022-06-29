@@ -1,0 +1,121 @@
+/* FONT SPECS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* BODY SPECS */
+
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgb(247, 77, 247) 0%, rgba(131, 58, 180, 1) 100%);
+}
+
+
+/* HEADER CONTENT */
+
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+header>h1 {
+    color: white;
+    margin: 0;
+}
+
+header>h4 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header>h4>a {
+    color: pink;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.big-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid blue;
+}
+
+.sort-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+
+.cart-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid red;
+}
+
+
+/* SORT-SIDE CONTENT */
+
+.sort-container p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+}
+
+.sort-container p#txtBichoSorteado {
+    font-size: 1rem;
+    margin: 0 0 20px;
+}
+
+#imgBichoSorteado {
+    width: 300px;
+    margin: 0;
+}
+
+.sort-container button {
+    background-color: blueviolet;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 40px;
+    font-size: 1.2rem;
+    transition-duration: 0.4s;
+}
+
+.sort-container button:hover {
+    background-color: hotpink;
+    transition-duration: 0.4s;
+}
+
+
+/* CART-SIDE CONTENT */
+
+.celula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBichoCartela {
+    /* visibility: hidden; */
+    max-height: 90%;
+}
