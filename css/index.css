@@ -8,9 +8,18 @@
 
 /* BODY SPECS */
 
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgb(247, 77, 247) 0%, rgba(131, 58, 180, 1) 100%);
+    margin: 0;
 }
 
 
@@ -143,24 +152,38 @@ footer>a {
 }
 
 
-/* MEDIA QUERY */
+/* MEDIA QUERY  - WIDTH <= 800PX */
 @media (max-width: 800px) {
 
     header > h1 {
-        margin-top: 40px;
+        font-size: 1.5rem;
     }
 
     #cHeader {
         grid-row: span;
         box-sizing: border-box;
-        width: 405px;
     }
 
     .celula {
-        width: 130px;
+        width: 100px;
+        height: 100px;
         margin: 2px;
         transition-duration: 1s;
         box-sizing: border-box;
+    }
+
+    .celula img {
+        width: 50px;
+    }
+
+    .celula img:hover {
+        width: 55px;
+    }
+
+    .celulaTxt {
+        margin: 0 0 0 4px;
+        font-size: 12px;
+        overflow: hidden;
     }
 
     button {
@@ -173,6 +196,22 @@ footer>a {
     }
 
     footer > a {
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
+}
+
+
+/* MEDIA QUERY - HEIGHT <= 655PX */
+
+@media (max-height: 655px) {
+    
+    html, body {
+        height: fit-content;
+    }
+
+    body {
+        margin: 20px 0;
+    }
+
 }
