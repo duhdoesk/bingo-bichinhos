@@ -145,9 +145,17 @@ main {
 
 @media (max-width: 1200px) {
 
+    header {
+        margin: 0;
+    }
+
     header > h1 {
         font-size: 1.35rem;
         margin-top: 0;
+    }
+
+    header > h4 {
+        margin: 0;
     }
     
     .big-container {
@@ -157,31 +165,48 @@ main {
 
     .sort-container {
         width: 320px;
-        height: 300px;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin: 20px 0;
+        margin: 10px 0;
     }
 
     .cart-container {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         height: 300px;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
     #imgBichoSorteado {
-        width: 120px;
+        width: 90px;
+        margin: 0;
     }
 
     #imgBichoSorteado:hover {
-        width: 120px;
+        width: 90px;
     }
 
     .imgBichoCartela {
         max-width: 60%;
     }
 
+}
+
+@media (max-height: 740px) {
+
+    body {
+        height: fit-content;
+    }
+
+    header {
+        height: fit-content;
+        margin: 10px 0 10px 0;
+    }
+
+    #botaoVoltar {
+        margin: 20px 0 10px 0;
+    }
 }
