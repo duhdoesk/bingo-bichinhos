@@ -64,6 +64,7 @@ main {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 500px;
 }
 
 .sort-container {
@@ -75,11 +76,25 @@ main {
     justify-content: center;
     text-align: center;
     padding: 10px 0;
+    align-self: center;
 }
 
 .cart-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
+
+.cart-container li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.cart-container li#last {
+    font-size: 1.6em;
+    color: navy;
+    font-weight: 700
 }
 
 
@@ -123,7 +138,7 @@ main {
 
 /* CART-SIDE CONTENT */
 
-.celula {
+/* .celula {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +146,7 @@ main {
 
 .imgBichoCartela {
     max-height: 90%;
-}
+} */
 
 
 /* OTHER */
@@ -161,6 +176,7 @@ main {
     .big-container {
         width: 100%;
         grid-template-columns: 1fr;
+        height: fit-content;
     }
 
     .sort-container {
@@ -172,12 +188,20 @@ main {
         justify-content: center;
         text-align: center;
         margin: 10px 0;
+        justify-self: center;
     }
 
     .cart-container {
         margin-bottom: 10px;
-        height: 300px;
+        max-width: 400px;
+        height: fit-content;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 0;
+    }
+
+    #bichos-sorteados {
+        font-size: 12px;
+        padding: 8px;
     }
 
     #imgBichoSorteado {
@@ -209,4 +233,5 @@ main {
     #botaoVoltar {
         margin: 20px 0 10px 0;
     }
+
 }
