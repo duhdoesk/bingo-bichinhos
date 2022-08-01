@@ -176,6 +176,7 @@ main {
     .big-container {
         width: 100%;
         grid-template-columns: 1fr;
+        height: fit-content;
     }
 
     .sort-container {
@@ -187,12 +188,20 @@ main {
         justify-content: center;
         text-align: center;
         margin: 10px 0;
+        justify-self: center;
     }
 
     .cart-container {
         margin-bottom: 10px;
-        height: 300px;
+        max-width: 400px;
+        height: fit-content;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 0;
+    }
+
+    #bichos-sorteados {
+        font-size: 12px;
+        padding: 8px;
     }
 
     #imgBichoSorteado {
@@ -224,4 +233,5 @@ main {
     #botaoVoltar {
         margin: 20px 0 10px 0;
     }
+
 }
