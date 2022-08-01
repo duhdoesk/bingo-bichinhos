@@ -54,7 +54,12 @@ botaoSortear.addEventListener("click", function() {
     bichosSorteados.innerHTML = '';
 
     listaSorteados.forEach(element => {
-        bichosSorteados.innerHTML = `${bichosSorteados.innerHTML}<li>${element}</li>`
+        if (element === bicho.nome) {
+            bichosSorteados.innerHTML = `${bichosSorteados.innerHTML}<li id='last'>${element}</li>`
+        } else {
+            bichosSorteados.innerHTML = `${bichosSorteados.innerHTML}<li>${element}</li>`
+        }
+        
     })
 
     removed = listaBichos.splice(indice, 1);
