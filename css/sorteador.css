@@ -193,7 +193,7 @@ main {
 
     .cart-container {
         margin-bottom: 10px;
-        max-width: 400px;
+        max-width: 360px;
         height: fit-content;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         margin: 0;
