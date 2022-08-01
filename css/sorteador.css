@@ -78,8 +78,15 @@ main {
 }
 
 .cart-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
+
+.cart-container li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
 }
 
 
@@ -123,7 +130,7 @@ main {
 
 /* CART-SIDE CONTENT */
 
-.celula {
+/* .celula {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +138,7 @@ main {
 
 .imgBichoCartela {
     max-height: 90%;
-}
+} */
 
 
 /* OTHER */
